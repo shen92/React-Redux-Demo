@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.App {
+    height: 100%;
+    width: 100%;
+}
+
+.displayBox {
+    margin: 2% auto;
+    height: 10%;
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.title {
+    margin: 2% auto 2%;
+}
+
+.count {
+    margin: 0 auto 2%;
+    font-size: 40px;
+}
+
+.read {
+    margin: 2% auto 2%;
+    font-size: 25px;
+}
+
+.button {
+    margin: 10% auto 2%;
+    border: 1px solid #0275d8;
+    color: #0275d8;
+    height: 30px;
+    line-height: 30px;
+    width: 150px;
+}
+
+.button:hover, .button:active, .button:focus {
+    color: white;
+    background-color: #0275d8;
+    cursor: pointer;
+}
+
+input, input:hover, input:active, input:focus {
+    outline: none;
+    border: 1px solid gray;
+    width: 60%;
+    height: 25px;
+}
